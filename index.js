@@ -14,6 +14,15 @@ app.get('/', function(req, res){
     res.send('Breaking Bad REST api example.......................');
 });
 
+app.get('/api', function(req, res){
+    res.json({
+        "characters": "https://breakingbadapi.com/api/characters",
+        "episodes": "https://breakingbadapi.com/api/episodes",
+        "quotes": "https://breakingbadapi.com/api/quotes",
+        "deaths": "https://breakingbadapi.com/api/deaths"
+    });
+});
+
 app.listen(port, function(req, res){
 	console.log('App is running on port:-' + port);
 });
