@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/parmindersingh4385/breaking-bad-api-2/issues"
   },
-  "homepage": "https://github.com/parmindersingh4385/breaking-bad-api-2#readme"
+  "homepage": "https://github.com/parmindersingh4385/breaking-bad-api-2#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
 }
