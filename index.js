@@ -16,10 +16,10 @@ app.get('/', function(req, res){
 
 app.get('/api', function(req, res){
     res.json({
-        "characters": "https://breakingbadapi.com/api/characters",
-        "episodes": "https://breakingbadapi.com/api/episodes",
-        "quotes": "https://breakingbadapi.com/api/quotes",
-        "deaths": "https://breakingbadapi.com/api/deaths"
+        "characters": "https://breaking-bad-api-2.herokuapp.com/api/characters",
+        "episodes": "https://breaking-bad-api-2.herokuapp.com/api/episodes",
+        "quotes": "https://breaking-bad-api-2.herokuapp.com/api/quotes",
+        "deaths": "https://breaking-bad-api-2.herokuapp.com/api/deaths"
     });
 });
 
